@@ -40,6 +40,10 @@ def root():
         "docs": "/docs"
     }
 
+@app.get("/healthz")
+def healthz():
+    return {"status": "ok"}
+
 @app.get("/api/health")
 def health_check():
     try:
