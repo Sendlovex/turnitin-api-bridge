@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.vscode/
+dashboard_dump.html
+originality_dump.html
+report_dump.html

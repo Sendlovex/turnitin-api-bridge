@@ -1,0 +1,28 @@
+# Environment variables & secrets (CRITICAL - DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Local diagnostic dumps & reports
+dashboard_dump.html
+originality_dump.html
+report_dump.html
+*.html
+*.log
